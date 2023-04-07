@@ -1059,7 +1059,7 @@ a {
 .cid-tAC4WdiQuk {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #191f26;
+  background-image: url("../../../assets/images/uniqueliveiberianmidwifetoad-size-restricted.gif");
 }
 .cid-tAC4WdiQuk .mbr-fallback-image.disabled {
   display: none;
@@ -1093,10 +1093,137 @@ a {
 .cid-tAC4WdiQuk .mbr-section-btn {
   color: #fafafa;
 }
-.cid-tAEPuGzwse {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #98dee8;
+.cid-tAIDfzZIiB {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-image: url("../../../assets/images/mbr-1920x1280.jpg");
+}
+.cid-tAIDfzZIiB .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tAIDfzZIiB .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tAIDfzZIiB .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.cid-tAIDfzZIiB .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cid-tAIDfzZIiB .mbr-iconfont {
+  padding-left: 1rem;
+  font-family: 'Moririse2' !important;
+  font-size: 1.4rem !important;
+  color: #6592e6;
+}
+.cid-tAIDfzZIiB .panel-body,
+.cid-tAIDfzZIiB .card-header {
+  padding: 1rem 0;
+}
+.cid-tAIDfzZIiB .panel-title-edit {
+  color: #ffffff;
+}
+.cid-tAIDfzZIiB .panel-text {
+  color: #ffffff;
+}
+.cid-tAIDfzZIiB H3 {
+  color: #ffffff;
+}
+.cid-tAIGeVDJru {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/aerial-view-of-sigiriya-rock-at-misty-morning-sri-lanka-drone-photo-1129567907-a6628ce7d636462f9a0e0361a3808178-1500x1124.jpg");
+}
+.cid-tAIGeVDJru .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tAIGeVDJru .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tAIGeVDJru .mbr-section-title {
+  color: #ffffff;
+}
+.cid-tAIGeVDJru .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-tAHROs5ZgE {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-color: #191f26;
+}
+.cid-tAHROs5ZgE img,
+.cid-tAHROs5ZgE .item-img {
+  height: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.cid-tAHROs5ZgE .item:focus,
+.cid-tAHROs5ZgE span:focus {
+  outline: none;
+}
+.cid-tAHROs5ZgE .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-tAHROs5ZgE .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #fff0b0;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-tAHROs5ZgE .item-wrapper .item-content {
+    padding: 2rem 2rem 0;
+  }
+  .cid-tAHROs5ZgE .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-tAHROs5ZgE .item-wrapper .item-content {
+    padding: 1rem 1rem 0;
+  }
+  .cid-tAHROs5ZgE .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
+  }
+}
+.cid-tAHROs5ZgE .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-tAHROs5ZgE .mbr-section-title {
+  color: #ffffff;
+}
+.cid-tAHROs5ZgE .mbr-text,
+.cid-tAHROs5ZgE .mbr-section-btn {
+  text-align: left;
+}
+.cid-tAHROs5ZgE .item-title {
+  text-align: left;
+  color: #4479d9;
+}
+.cid-tAHROs5ZgE .item-subtitle {
+  text-align: left;
+  color: #232323;
+}
+.cid-tAHROs5ZgE .mbr-section-subtitle {
+  color: #bbbbbb;
 }
 .cid-tAEOvuXb8m {
   padding-top: 5rem;
