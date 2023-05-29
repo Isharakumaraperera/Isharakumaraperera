@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Password Redirect</title>
+  <script>
+    // Disable right-click menu
+    window.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    });
+
+    // Disable inspect feature
+    window.addEventListener('keydown', function (e) {
+      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+        e.preventDefault();
+      }
+    });
+  </script>
+  <style>
+    body {
+      background: url("back.gif") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      overflow: hidden; /* Disable scrolling */
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 1px;
+    }
+
+    .input-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    input[type="password"] {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      outline: none;
+      transition: box-shadow 0.3s;
+    }
+
+    input[type="password"]:focus {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .error-message {
+      color: #ff0000;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .shake-animation {
+      animation: shake 0.4s ease-in-out;
+    }
+
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-10px); }
+      50% { transform: translateX(10px); }
+      75% { transform: translateX(-10px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Database is locked:</h1>
+    <h5>Enter the Passkey to unlock</h5>
+    <div class="input-box">
+      <input type="password" id="passwordInput" placeholder="Password">
+    </div>
+    <p id="errorMessage" class="error-message"></p>
+  </div>
+
+  <script>
+    const passwordInput = document.getElementById('passwordInput');
+    const errorMessage = document.getElementById('errorMessage');
+
+    passwordInput.addEventListener('keyup', function(event) {
+      if (event.key === 'Enter') {
+        checkPassword();
+      }
+    });
+
+    function checkPassword() {
+      const password = 'I didnt remember my password but why';
+      const enteredPassword = passwordInput.value;
+
+      if (enteredPassword === password) {
+        // Redirect to the desired page
+        window.location.href = 'https://pvtspace.github.io/Mainspace/';
+      } else {
+        // Display error message and shake input box
+        errorMessage.textContent = 'Access Denied';
+        passwordInput.classList.add('shake-animation');
+        setTimeout(function() {
+          passwordInput.classList.remove('shake-animation');
+        }, 400);
+      }
+    }
+  </script>
+</body>
+</html>
