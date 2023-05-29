@@ -2,6 +2,19 @@
 
 <html>
 <head>
+	<script>
+    // Disable right-click menu
+    window.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    });
+
+    // Disable inspect feature
+    window.addEventListener('keydown', function (e) {
+      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+        e.preventDefault();
+      }
+    });
+  </script>
 	
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
